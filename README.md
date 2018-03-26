@@ -2,19 +2,16 @@
 This is a step-by-step installation for Icinga Web 2 on CetOS 7
 
 
-#This installation is for Icinga Web 2 with Icinga2
-#
 #Icinga Web 2 Version: 2.5.1
 #PHP Version: 7.1
-#
 #MariaDB Connection Details:
 #Database Name: icinga
 #Database User: icinga
 #Database Password: icinga
-#
 #Firewall and SELinux are disabled for this Installation
  
- 
+
+
 #Stop and Disable Firewalld and SELinux
  
 systemctl stop firewalld && systemctl disable firewalld
